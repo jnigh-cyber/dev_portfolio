@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+#root {
+    background-color: #CFC3A4;
+}
+
+@theme {
+    --color-kraft-board: #CFC3A4;
+    --color-card-stock: #E9DFC6;
+    --color-field-tint: #F6F1E4;
+    --color-guilloche-teal: #146B6B;
+    --color-oxblood-stamp: #93321F;
+    --color-register-ink: #1F1B14;
+    --color-body-ink: #4A4235;
+    --color-carbon-grey: #6B6252;
+    --color-field-label: #7A7060;
+
+    --font-display: 'Instrument Serif', serif; 
+    --font-body: 'Libre Franklin', sans-serif, system-ui;
+    --font-label: 'IBM Plex Mono', monospace;
+}
