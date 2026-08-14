@@ -14,7 +14,7 @@ export const projects = [
         title: 'Car Loan Calculator',
         stack: 'React · TypeScript · Express · Postgres · JWT · Live on Render',
         status: 'Deployed',
-        url: 'https://car-loan-calc.onrender.com/login',
+        url: 'https://car-loan-calc.onrender.com/',
     },
     {
         id: 2,
