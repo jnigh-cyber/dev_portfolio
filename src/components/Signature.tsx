@@ -2,16 +2,16 @@ import { RINGS } from '../lib/hypotrochoid';
 
 function Signature() {
   return (
-    <div className='relative bg-card-stock px-10 pt-7'>
-      <div className='flex items-start justify-between gap-6'>
-        <div className='flex-1 min-w-42.5 '>
-          <h2 className='font-display italic tracking-wide text-2xl border-b border-body-ink pb-2 max-w-56/100'>
+    <div className='relative bg-card-stock px-5 md:px-8 lg:px-10 pt-6 lg:pt-7'>
+      <div className='flex items-start justify-between gap-4 md:gap-6'>
+        <div className='flex-1 min-w-0 md:min-w-42.5'>
+          <h2 className='font-display italic tracking-wide text-xl md:text-2xl border-b border-body-ink pb-2 max-w-none md:max-w-72/100 lg:max-w-56/100'>
             Jacob Nigh
           </h2>
           <p className='font-label text-field-label uppercase text-xs pt-2'>Signature of Entrant</p>
         </div>
 
-        <div className='relative w-31 h-31 shrink-0'>
+        <div className='relative w-20 h-20 md:w-26 md:h-26 lg:w-31 lg:h-31 shrink-0'>
           <svg viewBox='-140 -140 280 280' className='w-full h-full' aria-hidden='true'>
             <defs>
               {RINGS.map((ring, i) => (
@@ -38,8 +38,8 @@ function Signature() {
 
           <div
             className='absolute inset-0 flex flex-col items-center justify-center
-                       font-label text-[8px] font-bold uppercase tracking-[0.04em]
-                       text-oxblood-stamp text-center leading-[1.4]'
+            font-label text-[6px] md:text-[7px] lg:text-[8px] font-bold uppercase tracking-[0.04em]
+            text-oxblood-stamp text-center leading-[1.4]'
           >
             <span>
               Self
@@ -51,8 +51,8 @@ function Signature() {
       </div>
 
       <div className='mt-4 border-b-2 border-dashed border-body-ink' />
-      <div className='absolute bottom-0 left-0 z-10 h-5.5 w-5.5 -translate-x-1/2 translate-y-1/2 rounded-full bg-kraft-board' />
-      <div className='absolute bottom-0 right-0 z-10 h-5.5 w-5.5 translate-x-1/2 translate-y-1/2 rounded-full bg-kraft-board' />
+      <div className='absolute bottom-0 left-0 z-10 h-4 w-4 lg:h-5.5 lg:w-5.5 -translate-x-1/2 translate-y-1/2 rounded-full bg-kraft-board' />
+      <div className='absolute bottom-0 right-0 z-10 h-4 w-4 lg:h-5.5 lg:w-5.5 translate-x-1/2 translate-y-1/2 rounded-full bg-kraft-board' />
     </div>
   );
 }
